@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TableLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:layout_alignParentTop="true"
+	    	android:stretchColumns="*">
+	 
+	    	<TableRow
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content">
+	    
+	         
+			<TextView 
+			    style="@style/feher_35"
+				android:id="@+id/tv_datum_reszlet"
+				android:layout_width="0dp"
+			    android:layout_height="wrap_content"/>
+			
+			<TextView 
+			    style="@style/feher_35"
+				android:id="@+id/tv_nettoar_reszlet"
+				android:layout_width="0dp"
+			    android:layout_height="wrap_content"/>
+			
+			<TextView 
+			    style="@style/feher_35"
+				android:id="@+id/tv_bruttoar_reszlet"
+				android:layout_width="0dp"
+			    android:layout_height="wrap_content"/>
+			
+			<TextView 
+			    style="@style/feher_35"
+				android:id="@+id/tv_mennyiseg_reszlet"
+				android:layout_width="0dp"
+			    android:layout_height="wrap_content"/>
+	
+		</TableRow>
+	</TableLayout>
+
+</RelativeLayout>

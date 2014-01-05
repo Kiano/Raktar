@@ -1,0 +1,13 @@
+<resources>
+    
+    <style name="feher_35">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/Feher</item>
+    </style>
+    
+    <style name="feher_25">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/Feher</item>
+    </style>
+
+</resources>

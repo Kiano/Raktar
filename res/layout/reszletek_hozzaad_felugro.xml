@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+ 
+    <TextView
+        style="@style/feher_25"
+        android:id="@+id/tv_datum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/datum"
+        android:layout_marginTop="10dp"/>
+    
+    <EditText
+        android:id="@+id/et_datum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/tv_datum">
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        style="@style/feher_25"
+        android:id="@+id/tv_netto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nettoar"
+        android:layout_below="@id/et_datum"/>
+    
+    <EditText
+        android:id="@+id/et_netto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/tv_netto"/>
+    
+    <TextView
+        style="@style/feher_25"
+        android:id="@+id/tv_mennyiseg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mennyiseg"
+        android:layout_below="@id/et_netto"/>
+    
+    <EditText
+        android:id="@+id/et_mennyiseg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/tv_mennyiseg"/>
+    
+    <TextView
+        style="@style/feher_25"
+        android:id="@+id/tv_afa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/afa_ertek"
+        android:layout_below="@id/et_mennyiseg"/>
+    
+    <RadioGroup
+        android:id="@+id/rg_afa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/tv_afa">
+ 
+        <RadioButton
+            android:id="@+id/rb_afa_huszonhet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/huszonhet"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/afa_tizennyolc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tizennyolc" />
+        
+    </RadioGroup>
+    
+    <Button
+        style="@style/feher_25"
+        android:id="@+id/bt_dialog_megse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg_afa"
+        android:layout_alignParentLeft="true"
+        android:text="@string/megse"/>
+    
+    <Button
+        style="@style/feher_25"
+        android:id="@+id/bt_dialog_felvetel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg_afa"
+        android:layout_alignParentRight="true"
+        android:text="@string/felvetel"/>
+    
+</RelativeLayout>

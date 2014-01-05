@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+ 
+    <TextView
+        style="@style/feher_25"
+        android:id="@+id/tv_dialog_modositas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/dialog_modositas_termek"/>
+    
+    <EditText
+        style="@style/feher_25"
+        android:id="@+id/et_dialog_ujnev"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_modositas"
+        android:inputType="text"
+        android:layout_alignParentLeft="true"/>
+    
+    <Button
+        style="@style/feher_25"
+        android:id="@+id/bt_dialog_modositas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/et_dialog_ujnev"
+        android:text="@string/modositas"/>
+    
+    <TextView
+        style="@style/feher_25"
+        android:id="@+id/tv_dialog_torles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_dialog_modositas"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/felugro_torol"/>
+    
+    <Button
+        style="@style/feher_25"
+        android:id="@+id/bt_dialog_nem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_torles"
+        android:layout_alignParentLeft="true"
+        android:text="@string/nem"/>
+    
+    <Button
+        style="@style/feher_25"
+        android:id="@+id/bt_dialog_igen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_torles"
+        android:layout_alignParentRight="true"
+        android:text="@string/igen"/>
+ 
+</RelativeLayout>

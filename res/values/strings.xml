@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alkalmazas_neve">Raktár</string>
+    <string name="activity_termeklista">Termékek</string>
+    <string name="activity_reszletek">Részletek</string>
+    <string name="asynctask_lekeres">Betöltés</string>
+	<string name="uj_termek">Új termék felvétele</string>
+	<string name="felugro_hozzaad_cim">Add meg a termék nevét:</string>
+	<string name="felugro_torol_mod_cim">Módosítás vagy törlés</string>
+	<string name="felugro_csak_mod_cim">Termék név módosítás</string>
+	<string name="felugro_torol">Törli a terméket?</string>
+	<string name="felugro_reszlhozza_cim">Felveendő sor adatai:</string>
+	<string name="felvetel">Felvétel</string>
+	<string name="megse">Mégse</string>
+	<string name="hiba_felveve">A termék már szerepel a listában!</string>
+	<string name="hiba_reszletek_felveve">A tétel már szerepel a listában!</string>
+	<string name="igen">Igen</string>
+	<string name="nem">Nem</string>
+	<string name="datum">Dátum</string>
+	<string name="mennyiseg">Mennyiség</string>
+	<string name="nettoar">Nettó ár</string>
+	<string name="bruttoar">Bruttó ár</string>
+	<string name="hiba_uresnev">Termék nevének megadása kötelező!</string>
+	<string name="hiba_reszlkitoltes">Minden mező kitöltése kötelező!</string>
+	<string name="hiba_mennyiseg">Mennyiség nem lett megadva!</string>
+	<string name="uj_sor">Új sor</string>
+	<string name="hiba_reszletek_extra">Hiba lépett fel, próbálja újra.</string>
+	<string name="huszonhet">27</string>
+	<string name="tizennyolc">18</string>
+	<string name="afa_ertek">Áfa értéke</string>
+	<string name="dialog_modositas">Új mennyiség:</string>
+	<string name="dialog_modositas_termek">Új név:</string>
+	<string name="modositas">Módosítás</string>
+	<string name="hiba_ujnev">Az új név nem lett megadva</string>
+	<string name="ujnev_sikerult">Termék neve sikeresen módosítva</string>
+	<string name="lvSearch">Termék keresés</string>
+	
+</resources>
