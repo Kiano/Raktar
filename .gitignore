@@ -1,6 +1,6 @@
-/gen
+/gen/
 /assets
-/bin
+/bin/
 /proguard-project.txt
 /project.properties
 /lint.xml
